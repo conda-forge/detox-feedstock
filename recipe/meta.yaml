@@ -1,5 +1,5 @@
 {% set name = "detox" %}
-{% set version = "1.4.5" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dharple/detox/releases/download/v{{ version }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b8a0ed830f3054fbe09771d2b8ed8ae3667529678c1a73eb8e512693e8c74d3c
+  sha256: 8e108ef118030174eebbdf515ebea75311a66d655602a9536cdd370299d9ce30
 
 build:
   skip: true  # [win]
